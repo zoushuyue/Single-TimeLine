@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		895029551D60601A002394CA /* SYTimeCourseViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 895029541D60601A002394CA /* SYTimeCourseViewCell.xib */; };
 		8967D9BD1D60133E0021AD6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8967D9BC1D60133E0021AD6E /* main.m */; };
 		8967D9C01D60133E0021AD6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8967D9BF1D60133E0021AD6E /* AppDelegate.m */; };
 		8967D9C31D60133E0021AD6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8967D9C21D60133E0021AD6E /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		8967D9CB1D60133E0021AD6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8967D9C91D60133E0021AD6E /* LaunchScreen.storyboard */; };
 		8967D9D61D60133E0021AD6E /* Single_TimeLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8967D9D51D60133E0021AD6E /* Single_TimeLineTests.m */; };
 		8967D9E11D60133F0021AD6E /* Single_TimeLineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8967D9E01D60133F0021AD6E /* Single_TimeLineUITests.m */; };
+		8967D9F01D60140E0021AD6E /* SYTimeCourseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8967D9EF1D60140E0021AD6E /* SYTimeCourseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		895029541D60601A002394CA /* SYTimeCourseViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYTimeCourseViewCell.xib; sourceTree = "<group>"; };
 		8967D9B81D60133E0021AD6E /* Single TimeLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Single TimeLine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8967D9BC1D60133E0021AD6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8967D9BE1D60133E0021AD6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		8967D9DC1D60133E0021AD6E /* Single TimeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Single TimeLineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8967D9E01D60133F0021AD6E /* Single_TimeLineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Single_TimeLineUITests.m; sourceTree = "<group>"; };
 		8967D9E21D60133F0021AD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8967D9EE1D60140E0021AD6E /* SYTimeCourseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTimeCourseTableViewCell.h; sourceTree = "<group>"; };
+		8967D9EF1D60140E0021AD6E /* SYTimeCourseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTimeCourseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				8967D9C11D60133E0021AD6E /* ViewController.h */,
 				8967D9C21D60133E0021AD6E /* ViewController.m */,
 				8967D9C41D60133E0021AD6E /* Main.storyboard */,
+				8967D9EE1D60140E0021AD6E /* SYTimeCourseTableViewCell.h */,
+				8967D9EF1D60140E0021AD6E /* SYTimeCourseTableViewCell.m */,
+				895029541D60601A002394CA /* SYTimeCourseViewCell.xib */,
 				8967D9C71D60133E0021AD6E /* Assets.xcassets */,
 				8967D9C91D60133E0021AD6E /* LaunchScreen.storyboard */,
 				8967D9CC1D60133E0021AD6E /* Info.plist */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895029551D60601A002394CA /* SYTimeCourseViewCell.xib in Resources */,
 				8967D9CB1D60133E0021AD6E /* LaunchScreen.storyboard in Resources */,
 				8967D9C81D60133E0021AD6E /* Assets.xcassets in Resources */,
 				8967D9C61D60133E0021AD6E /* Main.storyboard in Resources */,
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8967D9C31D60133E0021AD6E /* ViewController.m in Sources */,
+				8967D9F01D60140E0021AD6E /* SYTimeCourseTableViewCell.m in Sources */,
 				8967D9C01D60133E0021AD6E /* AppDelegate.m in Sources */,
 				8967D9BD1D60133E0021AD6E /* main.m in Sources */,
 			);
@@ -498,6 +508,7 @@
 				8967D9E71D60133F0021AD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8967D9E81D60133F0021AD6E /* Build configuration list for PBXNativeTarget "Single TimeLineTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				8967D9EA1D60133F0021AD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8967D9EB1D60133F0021AD6E /* Build configuration list for PBXNativeTarget "Single TimeLineUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				8967D9ED1D60133F0021AD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
